@@ -71,5 +71,5 @@ if __name__ == '__main__':
     # model_type = 'ItemCF-IUF'
     model_type = 'LFM'
     test_size = 0.1
-    run_model(model_type, dataset_name, test_size, False)
+    run_model(model_type, dataset_name, test_size, True)
     main_time.finish()

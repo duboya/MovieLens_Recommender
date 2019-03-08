@@ -69,3 +69,11 @@ log/
 
 # IDE
 .idea/
+
+# data
+processed_data
+Personalized recommendation System/processed_data/
+Personalized recommendation System/runs/
+runs
+runs/
+.ipynb_checkpoints/
