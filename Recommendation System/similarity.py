@@ -137,7 +137,7 @@ def calculate_item_similarity(trainset, use_iuf_similarity=False):
         len_movie1 = movie_popular[movie1]
         for movie2, count in related_items.items():
             len_user2 = movie_popular[movie2]
-            # The similarity of user1 and user2 is len(common movies)/sqrt(len(user1 movies)* len(user2 movies)
+            # The similarity of movie1 and movie2 is len(common movies)/sqrt(len(movies1)* len(movies2)
             movie_sim_mat[movie1][movie2] = count / math.sqrt(len_movie1 * len_user2)
             # log steps and times.
         movie_sim_mat_time.count_time()
