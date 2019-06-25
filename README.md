@@ -33,14 +33,14 @@ At the end of a recommendation process, four numbers are given to measure the re
 ``Git`` is awesome~
 
 ```shell
-git clone https://github.com/fuxuemingzhu/MovieLens-Recommender.git
+git clone https://github.com/duboya/MovieLens_Recommender.git
 ```
 
-`Movielens-1M` and `Movielens-100k` datasets are under the `data/` folder.
+`Movielens-1M` and `Movielens-100k` datasets are under the `Recommendation System/data/` folder.
 
 **2. Run**
 
-The configures are in `main.py`. Pleas choose the dataset and model you want to use and set the proper test_size. The default values in `main.py` are shown below:
+The configures are in `Recommendation System/main.py`. Pleas choose the dataset and model you want to use and set the proper test_size. The default values in `main.py` are shown below:
 
 ```python
 dataset_name = 'ml-100k'
@@ -72,7 +72,7 @@ Python main.py > run.log 2>&1 &
 
 This command will run in background. You can wait for the result, or use `tail -f run.log` to see the real time result.
 
-All model will be saved to `model/` fold, which means the time will be cut down in your next run.
+All model will be saved to `Recommendation System/model/` fold, which means the time will be cut down in your next run.
 
 **3. Output**
 
